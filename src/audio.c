@@ -3,6 +3,7 @@
 #include <string.h>
 #include <math.h>
 #include <pthread.h>
+#include "define.h"
 
 static double fft_input[FFT_SIZE];
 static Complex fft_output[FFT_SIZE / 2 + 1];
