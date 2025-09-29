@@ -1,0 +1,70 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c99",
+      "-g",
+      "-I/opt/homebrew/include",
+      "-c",
+      "-o",
+      "build/audio.o",
+      "src/audio.c"
+    ],
+    "directory": "/Users/bytedance/code/mycode/music_visual",
+    "file": "/Users/bytedance/code/mycode/music_visual/src/audio.c",
+    "output": "/Users/bytedance/code/mycode/music_visual/build/audio.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c99",
+      "-g",
+      "-I/opt/homebrew/include",
+      "-c",
+      "-o",
+      "build/fft.o",
+      "src/fft.c"
+    ],
+    "directory": "/Users/bytedance/code/mycode/music_visual",
+    "file": "/Users/bytedance/code/mycode/music_visual/src/fft.c",
+    "output": "/Users/bytedance/code/mycode/music_visual/build/fft.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c99",
+      "-g",
+      "-I/opt/homebrew/include",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/Users/bytedance/code/mycode/music_visual",
+    "file": "/Users/bytedance/code/mycode/music_visual/src/main.c",
+    "output": "/Users/bytedance/code/mycode/music_visual/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c99",
+      "-g",
+      "-I/opt/homebrew/include",
+      "-c",
+      "-o",
+      "build/visual.o",
+      "src/visual.c"
+    ],
+    "directory": "/Users/bytedance/code/mycode/music_visual",
+    "file": "/Users/bytedance/code/mycode/music_visual/src/visual.c",
+    "output": "/Users/bytedance/code/mycode/music_visual/build/visual.o"
+  }
+]
